@@ -1,6 +1,6 @@
 FROM alpine:3.12
 LABEL Maintainer="Amirmasoud Sheydaei <amirmasoud.sheydaei@gmail.com>" \
-      Description="Lightweight container with Nginx 1.18 & PHP-FPM 7.3 based on Alpine Linux (Optimized for Laravel and PostgreSQL)."
+      Description="Lightweight container with NGINX, Laravel, PgSQL and Alpine"
 
 # Install packages and remove default server definition
 RUN apk --no-cache add php7 php7-fpm php7-opcache php7-pgsql php7-json php7-openssl php7-curl \
