@@ -1,4 +1,10 @@
 # Docker PHP-FPM 7.3 & Nginx 1.18 on Alpine Linux
+
+A fork from (TrafeX/docker-php-nginx)[https://github.com/TrafeX/docker-php-nginx] with removed MySQL, added PostgreSQL, 
+Redis, and other Laravel required extensions.
+
+---
+
 Example PHP-FPM 7.3 & Nginx 1.18 setup for Docker, build on [Alpine Linux](http://www.alpinelinux.org/).
 The image is only +/- 35MB large.
 
